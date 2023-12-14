@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/web/app/plugins/urlslab/vendor_prefixed/urlslab-client/guzzlehttp/promises/tests" />
         <option value="$PROJECT_DIR$/web/wp/wp-includes/sodium_compat/tests" />
+        <option value="$PROJECT_DIR$/web/app/plugins/urlslab/vendor_prefixed/urlslab-client/guzzlehttp/psr7/tests" />
       </list>
     </option>
   </component>

@@ -105,13 +105,8 @@ Config::define( 'NONCE_SALT', env( 'NONCE_SALT' ) );
 /**
  * Custom Settings
  */
-if ( WP_ENV === 'production' ) {
-	Config::define( 'WP_CACHE_KEY_SALT', $web_url );
-	Config::define( 'COOKIE_DOMAIN', $web_url );
-} else {
-	Config::define( 'WP_CACHE_KEY_SALT', env( 'WP_CACHE_KEY_SALT' ) );
-	Config::define( 'COOKIE_DOMAIN', env( 'COOKIE_DOMAIN' ) );
-}
+Config::define( 'WP_CACHE_KEY_SALT', env( 'WP_CACHE_KEY_SALT' ) );
+Config::define( 'COOKIE_DOMAIN', env( 'COOKIE_DOMAIN' ) );
 
 Config::define( 'ENFORCE_GZIP', true );
 Config::define( 'CONCATENATE_SCRIPTS', false );
