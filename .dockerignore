@@ -1,0 +1,6 @@
+.github
+.husky
+.idea
+database
+node_modules
+*.sql

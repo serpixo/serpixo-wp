@@ -1,0 +1,39 @@
+version: 2
+updates:
+  - package-ecosystem: composer
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 25
+    versioning-strategy: increase
+    labels:
+      - "type:dependencies"
+    assignees:
+      - "mvstepanek"
+    reviewers:
+      - "mvstepanek"
+
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 25
+    versioning-strategy: increase
+    labels:
+      - "type:dependencies"
+    assignees:
+      - "mvstepanek"
+    reviewers:
+      - "mvstepanek"
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 25
+    labels:
+      - "type:dependencies"
+    assignees:
+      - "mvstepanek"
+    reviewers:
+      - "mvstepanek"
