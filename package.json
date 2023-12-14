@@ -1,0 +1,12 @@
+{
+  "name": "serpixo-wp",
+  "license": "GPL-2.0-only",
+  "description": "serpixo's Main Structure",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "devDependencies": {
+    "@commitlint/cli": "^18",
+    "@commitlint/config-conventional": "^18",
+    "husky": "^8.0.3"
+  }
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0911a717-9e59-4ca1-93e3-9de20dced98e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vendor/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/composer/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/composer/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/composer/ffraenz/private-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/composer/roots/wordpress-core-installer" />
+      <path value="$PROJECT_DIR$/vendor/composer/wp-coding-standards/wpcs" />
+      <path value="$PROJECT_DIR$/vendor/composer/roots/bedrock-autoloader" />
+      <path value="$PROJECT_DIR$/vendor/composer/roots/wp-config" />
+      <path value="$PROJECT_DIR$/vendor/composer/composer" />
+      <path value="$PROJECT_DIR$/vendor/composer/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/composer/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/composer/roots/wp-password-bcrypt" />
+      <path value="$PROJECT_DIR$/vendor/composer/oscarotero/env" />
+      <path value="$PROJECT_DIR$/vendor/composer/sirbrillig/phpcs-variable-analysis" />
+      <path value="$PROJECT_DIR$/vendor/composer/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/composer/automattic/vipwpcs" />
+      <path value="$PROJECT_DIR$/vendor/composer/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/composer/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-crontrol/vendor/composer" />
+      <path value="$PROJECT_DIR$/web/app/plugins/query-monitor/vendor/composer" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/oscarotero/env" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/composer" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/sirbrillig/phpcs-variable-analysis" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/wp-coding-standards/wpcs" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/automattic/vipwpcs" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/qualityunit/wordpress-icons" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/web/app/themes/liveagent-dev/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/wp-coding-standards/wpcs" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/urlslab/urlslab-php-sdk" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/composer" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/aws/aws-crt-php" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/oscarotero/env" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/automattic/vipwpcs" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/sirbrillig/phpcs-variable-analysis" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/fidry/console" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/humbug/php-scoper" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/thecodingmachine/safe" />
+      <path value="$PROJECT_DIR$/web/app/plugins/wp-urlslab-dev/vendor/webmozart/assert" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "f6921dc7"
+}]]></component>
+  <component name="ProjectId" id="2ZWvv9H9IRCBPBQLmujSHVYmI8d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/martinstepanek/Developer/serpixo-wp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/app/uploads/cache" />
+      <recent name="$PROJECT_DIR$/web/app/languages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0911a717-9e59-4ca1-93e3-9de20dced98e" name="Changes" comment="" />
+      <created>1702550879789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702550879789</updated>
+      <workItem from="1702550880812" duration="2449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

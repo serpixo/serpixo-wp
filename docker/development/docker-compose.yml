@@ -1,0 +1,41 @@
+version: "3.9"
+
+volumes:
+  database:
+
+services:
+  database:
+    image: mysql:8.0
+    networks:
+      - wordpress
+    container_name: serpixo-dev-database
+    volumes:
+      - ../../database:/var/lib/mysql:default
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: superpass
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+
+  server:
+    build: .
+    depends_on:
+      - database
+    networks:
+      - wordpress
+    container_name: serpixo-dev-server
+    user: www-data
+    volumes:
+      - ../../:/var/www/html:default
+    restart: always
+    ports:
+      - 80:80
+    expose:
+      - 9003
+
+networks:
+  wordpress:
+    driver: bridge

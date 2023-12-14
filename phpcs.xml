@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ruleset name="serpixo">
+  <description>serpixo Coding Standards</description>
+
+  <!-- Scan all files in directory -->
+  <file>.</file>
+
+  <!-- Scan only PHP files -->
+  <arg name="extensions" value="php"/>
+
+  <!-- Ignore WordPress and Composer dependencies -->
+  <exclude-pattern>vendor/composer</exclude-pattern>
+  <exclude-pattern>web/wp</exclude-pattern>
+  <exclude-pattern>web/app/object-cache.php</exclude-pattern>
+  <exclude-pattern>web/app/themes</exclude-pattern>
+  <exclude-pattern>web/app/uploads</exclude-pattern>
+  <exclude-pattern>web/app/plugins</exclude-pattern>
+  <exclude-pattern>web/app/wflogs</exclude-pattern>
+  <exclude-pattern>web/app/mu-plugins/soil</exclude-pattern>
+  <exclude-pattern>web/app/mu-plugins/bedrock-disallow-indexing</exclude-pattern>
+
+  <!-- Show colors in console -->
+  <arg value="-colors"/>
+
+  <!-- Show sniff codes in all reports -->
+  <arg value="ns"/>
+
+  <!-- Use those sets as a base -->
+  <rule ref="WordPress-Core"/>
+  <rule ref="WordPress-VIP-Go"/>
+</ruleset>

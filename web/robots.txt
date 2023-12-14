@@ -1,0 +1,18 @@
+User-Agent: *
+Allow: /wp/app/uploads/
+Disallow: /app/plugins/
+Disallow: /wp/wp-admin/
+Disallow: /wp/wp-content/
+Disallow: /wp/wp-includes/
+Disallow: /wp/readme.html
+Disallow: /wp/license.txt
+Disallow: /refer/
+Disallow: /wp-json/
+Disallow: /search/
+Disallow: /*?*s=
+Disallow: /*?*id=
+Allow: /app/plugins/urlslab/
+Allow: /app/plugins/wp-urlslab/
+Allow: /wp/wp-includes/js/
+
+Sitemap: https://www.serpixo.com/wp-sitemap.xml

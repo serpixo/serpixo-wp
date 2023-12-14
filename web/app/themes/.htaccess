@@ -1,0 +1,5 @@
+# Custom Code
+<Files "*.php">
+	Require all denied
+</Files>
+# END Custom Code
