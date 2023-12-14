@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e664d6a3fffb70d24202c5c54e0db9f",
+    "content-hash": "e118ae72cfd05df082110925d8572d1d",
     "packages": [
         {
             "name": "composer/installers",
@@ -1141,6 +1141,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/urlslab/"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence",
+            "version": "7.11.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordfence/",
+                "reference": "tags/7.11.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.11.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfour",
