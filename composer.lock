@@ -1126,15 +1126,15 @@
         },
         {
             "name": "wpackagist-plugin/urlslab",
-            "version": "2.112.4",
+            "version": "2.121.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/urlslab/",
-                "reference": "tags/2.112.4"
+                "reference": "tags/2.121.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/urlslab.2.112.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/urlslab.2.121.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
